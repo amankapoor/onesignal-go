@@ -62,6 +62,9 @@ type NotificationRequest struct {
 	WPWNSSound             string            `json:"wp_wns_sound,omitempty"`
 	Data                   interface{}       `json:"data,omitempty"`
 	Buttons                interface{}       `json:"buttons,omitempty"`
+	WebButtons             interface{}       `json:"web_buttons,omitempty"`
+	ChromeWebImage         string            `json:"chrome_web_image,omitempty"`
+	Priority               int               `json:"priority,omitempty"`
 	SmallIcon              string            `json:"small_icon,omitempty"`
 	LargeIcon              string            `json:"large_icon,omitempty"`
 	BigPicture             string            `json:"big_picture,omitempty"`
