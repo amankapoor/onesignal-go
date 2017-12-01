@@ -64,6 +64,7 @@ type NotificationRequest struct {
 	Buttons                interface{}       `json:"buttons,omitempty"`
 	WebButtons             interface{}       `json:"web_buttons,omitempty"`
 	ChromeWebImage         string            `json:"chrome_web_image,omitempty"`
+	ChromeWebBadge         string            `json:"chrome_web_badge,omitempty"`
 	Priority               int               `json:"priority,omitempty"`
 	SmallIcon              string            `json:"small_icon,omitempty"`
 	LargeIcon              string            `json:"large_icon,omitempty"`
